@@ -1,10 +1,10 @@
 # 🧬 Problema das 8 Rainhas com Algoritmo Genético #
 Este repositório contém a implementação de um algoritmo genético para resolver o clássico problema das 8 rainhas, com variações e experimentações nos parâmetros do algoritmo para avaliar seu desempenho.
 
-## 📌 Descrição do Problema##
+## 📌 Descrição do Problema 
 O problema das 8 rainhas consiste em posicionar 8 rainhas em um tabuleiro de xadrez 8x8 de forma que nenhuma delas se ataque mutuamente (nem na mesma linha, coluna ou diagonal).
 
-## ⚙️ Estratégia Utilizada ##
+## ⚙️ Estratégia Utilizada 
 O algoritmo genético segue os seguintes parâmetros iniciais:
 - Representação (Genótipo): Permutação de string de bits
 - Inicialização: População gerada aleatoriamente
@@ -18,7 +18,7 @@ O algoritmo genético segue os seguintes parâmetros iniciais:
 - Número de filhos por geração: 2
 - Condição de parada: Solução encontrada ou 10.000 avaliações de fitness
 
-## 🧪 Segunda Parte – Variações e Melhorias##
+## 🧪 Segunda Parte – Variações e Melhorias
 O projeto inclui uma segunda fase com modificações nos seguintes aspectos para avaliar impacto no desempenho:
 - Representação alternativa do indivíduo
 - Novos operadores de recombinação e mutação
@@ -27,7 +27,7 @@ O projeto inclui uma segunda fase com modificações nos seguintes aspectos para
 - Variações no tamanho da população (10, 30, 50, 70, 120, 200)
 - Melhoria na função de fitness
 
-## 📊 Avaliação e Métricas ##
+## 📊 Avaliação e Métricas 
 Para cada configuração:
 - Realização de 30 execuções independentes
 
